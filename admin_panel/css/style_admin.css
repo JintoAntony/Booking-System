@@ -1,0 +1,361 @@
+body
+{
+/*background:url(images/bg.gif) repeat #000000;*/
+background-color:rgb(233, 228, 228);
+padding:0; font-family:arial, sans-serif; font-size:12px;
+margin:0px auto auto auto;
+color:#36322b;
+}
+p{
+padding:0px;
+text-align:justify;
+margin:0px;
+line-height:20px;
+}
+p.welcome{
+padding:30px 35px 0 35px;
+}
+p.testimonial{
+font-style:italic;
+padding:5px 15px 0 5px;
+}
+.clear{
+clear:both;
+}
+a{
+text-decoration:underline;
+}
+a.read_more{
+display:block;
+width:66px;
+height:23px;
+line-height:23px;
+text-align:center;
+color:#504848;
+float:right;
+margin:10px 40px 0 0;
+padding:0 0 0 17px;
+text-decoration:none;
+font-size:12px;
+background:url(images/read_more_bg.gif) no-repeat center;
+}
+a:hover.read_more{
+text-decoration:underline;
+}
+img.left_img{
+float:left;
+padding:3px 25px 3px 3px;
+}
+
+#main_container{
+width:821px;
+height:auto;
+margin:auto;
+padding:0px;
+}
+#header{
+width:821px;
+height:135px;
+margin:0px;
+padding:0px;
+
+}
+.logo{
+padding:30px 0 0 0px;
+}
+.title{
+width: auto;
+padding:2px 0 10px 0;
+font-size:17px;
+color:#2e2721;
+font-weight:bold;
+}
+.title_welcome{
+width: auto;
+/*padding:0 0 0 35px;*/
+font-size:24px;
+color:#D64040;
+/*background:url(images/checked.gif) no-repeat left top;*/
+margin:0 0 10px 25px;
+}
+span.heading{
+font-weight:bold;
+color:#2B6D65;
+}
+span.orange{
+font-weight:bold;
+color:#da5b23;
+}
+
+/*---------------- menu tab----------------------*/
+.menu{
+width:821px;
+height:42px;
+margin:0px;
+/*background:url(images/menu_bg.gif) no-repeat left;*/
+background-color:rgb(110, 92, 114);
+border: 2px solid transparent; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+}
+.menu ul{
+list-style:none;
+padding:0 0 0 15px;
+margin:0px;
+}
+.menu ul li{
+display:inline;
+}
+
+.menu ul li.selected a{
+float:left;
+height:42px;
+border:none;
+padding:0 15px 0 15px;
+text-decoration:none;
+color:#fff;
+line-height:42px;
+font-size:14px;
+background:url(images/menu_bullet.gif) no-repeat bottom center;
+}
+
+.menu ul li a{
+float:left;
+height:42px;
+border:none;
+padding:0 15px 0 15px;
+text-decoration:none;
+color:#fff;
+line-height:42px;
+font-size:14px;
+}
+
+.menu ul li a:hover{
+background:url(images/menu_bullet.gif) no-repeat bottom center;
+}
+
+/*-------------welcome_box------------*/
+.content_box{
+width:496px;
+height:auto;
+/*background:url(images/welcome_box.gif) no-repeat center;*/
+padding:0px;
+}
+/*---------------center_content-------*/
+.content_center{
+width:821px;
+height:auto;
+margin-top:3px;
+clear:both;
+padding:25px 0 30px 0;
+background-color:#E9D9D9;
+border: 2px solid transparent; border-radius: 3px;
+ -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+}
+
+
+.content_form{
+width:820px;
+height:auto;
+margin-top:3px;
+clear:both;
+padding:25px 0 30px 0;
+background-color:#FFFDFD;
+border: 2px solid transparent; border-radius: 3px;
+ -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+}
+
+
+.left_content{
+width:500px;
+float:left;
+padding:10px 0 10px 10px;
+}
+.right_content{
+width:300px;
+float:left;
+padding:10px 0 10px 0px;
+}
+.software_box{
+width:187px;
+height:265px;
+padding:0 0 15px 50px;
+}
+.features{
+padding:10px 0 0 30px;
+}
+.news_box{
+float:left;
+width:760px;
+border-bottom:1px #CCCCCC dashed;
+padding:10px 0 8px 0;
+}
+.news_icon{
+width:30px;
+height:33px;
+float:left;
+background:url(images/news_icon.gif) no-repeat center;
+}
+.news_content{
+width:750px;
+float:left;
+text-align:justify;
+line-height:20px;
+padding:0 0 0 10px;
+}
+/*-----------------------login_form-------------------*/
+.login{
+width:278px;
+height:144px;
+padding:15px 0 0 10px;
+/*background:url(images/text_box.gif) no-repeat center;*/
+background:rgb(184, 170, 170);
+background-position:0px 0px;
+border: 2px solid transparent; border-radius: 3px;
+ -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+}
+.login_form_row{
+float:left;
+padding:4px 0 4px 0;
+}
+label.login_label{
+width:70px;
+float:left;
+padding:3px 5px 0 0;
+color:#000;
+text-align:right;
+}
+input.login_input{
+width:165px;
+height:22px;
+float:left;
+border:1px #9dbbc6 solid;
+background-color:#fff;
+color: #000;
+}
+input.loginbutton{
+margin-left:190px;
+margin-top:10px;
+width:50px;
+height:27px;
+color:white;
+/*padding:5px 10px 0 0;*/
+background:rgb(71, 67, 67);
+border: 2px solid transparent; border-radius: 3px;
+ -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+
+}
+/*----------------------list-------------------------*/
+ul.list{
+list-style:none;padding:0px;margin:0px; 
+}
+ul.list li{
+list-style:none;width: auto;height: auto;padding:0px; margin:8px 0 8px 0;
+}
+ul.list li a{
+height:24px; width: auto; padding:0 0 0 15px; margin:0;color:#36322b;text-align:left;line-height:24px;
+text-decoration:none;
+}
+ul.list li span{
+height:24px; width:24px; display:block;padding:0px; margin:0px;color:#000;text-align:center; float:left; float:left; line-height:24px;
+background:url(images/bullet_list.gif) no-repeat left;
+}
+ul.list li a:hover{
+text-decoration:underline;
+}
+.testimonials{
+padding:20px 0 20px 0;
+}
+/*-------------------footer------------------------*/
+#footer{
+width:821px;
+height:50px;
+clear:both;
+color:#837d7b;
+}
+.left_footer{
+float:left;
+padding:20px 0 0 0;
+}
+#footer a{
+color:#837d7b;
+padding:0 8px 0 8px;
+text-decoration:none;
+}
+.right_footer{
+float:right;
+padding:15px 5px 0 0 ;
+}
+
+
+
+/* CSS for Table */
+
+table {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+	/*	background:#fefefe;*/
+	/*	width:70%;*/
+		margin:2% auto 0;
+		-moz-border-radius:2px; /* FF1+ */
+		-webkit-border-radius:2px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	th, td {padding:18px 28px 18px; }
+	
+	th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+	
+	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+	
+	tr.odd-row td {background:#f6f6f6;width:5px;}
+	
+	td.first, th.first {text-align:left}
+	
+	td.last {border-right:none;}
+	
+	/*
+	Background gradients are completely unnecessary but a neat effect.
+	*/
+	
+	td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+	
+	tr.odd-row td {
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+	}
+	
+	th {
+		background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+		background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+	}
+	
+	/*
+	I know this is annoying, but we need additional styling so webkit will recognize rounded corners on background elements.
+	Nice write up of this issue: http://www.onenaught.com/posts/266/css-inner-elements-breaking-border-radius
+	
+	And, since we've applied the background colors to td/th element because of IE, Gecko browsers also need it.
+	*/
+	
+	tr:first-child th.first {
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:first-child th.last {
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.first {
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.last {
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+	}	
